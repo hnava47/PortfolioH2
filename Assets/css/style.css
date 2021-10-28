@@ -8,14 +8,12 @@ div {
 }
 
 h1 {
-    text-align: left;
     font-size: 2.5em;
     font-weight: 700;
     color: #a9a9a9;
 }
 
 h3 {
-    text-align: left;
     font-size: 1.15em;
     font-weight: 400;
     color: #a9a9a9;
@@ -23,6 +21,12 @@ h3 {
 
 .content div {
     margin-left: 10em;
+    text-align: left;
+}
+
+.content h1 {
+    border-bottom: 3px solid #ff3b3f;
+    display: inline-block;
 }
 
 .content .about-me img {
@@ -54,6 +58,8 @@ h3 {
     position: relative;
     overflow: hidden;
 }
+
+/* Below styling are tied to the follow me options on page */
 
 .follow-me {
     position: fixed;
