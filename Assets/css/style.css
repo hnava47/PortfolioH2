@@ -207,4 +207,8 @@ form awesome-button span:hover {
     .content div {
         margin: 0 20% 0 15%;
     }
+
+    h3 {
+        font-size: 0.5em;
+    }
 }
