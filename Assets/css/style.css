@@ -41,6 +41,7 @@ nav li {
 
 nav a {
     color: #f1f1f1;
+    border-bottom: 3px solid #ff3b3f;
 }
 
 nav a:link {
@@ -58,8 +59,8 @@ nav a:link {
 }
 
 .content h1 {
-    border-bottom: 3px solid #ff3b3f;
     display: inline-block;
+    background: linear-gradient(to bottom, #efefef 50%, #caebf2 50%)
 }
 
 .content .about-me h1 {
