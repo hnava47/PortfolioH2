@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #efefef;
     font-family: Lato, Helvetica, Arial, sans-serif;
@@ -8,21 +13,30 @@ div {
 }
 
 h1 {
+    margin-top: 15%;
     text-align: left;
-    font-size: 2.5em;
     font-weight: 700;
+    font-size: 2.5em;
     color: #a9a9a9;
 }
 
 h3 {
-    text-align: left;
+    color: #a9a9a9;
     font-size: 1.15em;
     font-weight: 400;
-    color: #a9a9a9;
+}
+
+.about-me h1 {
+    margin-top: 50%;
 }
 
 .content div {
-    margin-left: 10em;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .content .about-me img {
@@ -53,6 +67,19 @@ h3 {
     padding: 6px 5px;
     position: relative;
     overflow: hidden;
+}
+
+.skills li:before {
+    top: 0;
+    background-color: #515151;
+    transform: translate3d(-105%, 0, 0);
+}
+
+.skills li:after {
+    background-color: #3f3f3f;
+    top: 50%;
+    transform: translate3d(105%, 0, 0);
+    transition-delay: 75ms;
 }
 
 .follow-me {
