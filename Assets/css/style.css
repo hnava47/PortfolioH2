@@ -208,4 +208,8 @@ form awesome-button span:hover {
     .content .about-me h1 {
         margin-top: 50%;
     }
+
+    nav ul {
+        margin: 0;
+    }
 }
