@@ -233,6 +233,10 @@ form awesome-button span:hover {
         font-size: 0.5em;
     }
 
+    form input {
+        font-size: 10px;
+    }
+
     .facebook,
     .github,
     .linkedin,
