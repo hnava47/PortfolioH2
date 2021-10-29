@@ -218,6 +218,7 @@ form awesome-button span:hover {
 
     header {
         height: 10%;
+        font-size: 1em;
     }
 
     .content .about-me h1 {
