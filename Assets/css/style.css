@@ -208,7 +208,16 @@ form awesome-button span:hover {
         margin: 0 20% 0 15%;
     }
 
+    h1 {
+        font-size: 1.5em;
+    }
+
     h3 {
         font-size: 0.5em;
+    }
+
+    .content .about-me img {
+        width: 200%;
+        height: 200%;
     }
 }
