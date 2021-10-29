@@ -216,8 +216,20 @@ form awesome-button span:hover {
         font-size: 0.5em;
     }
 
+    header {
+        height: 10%;
+    }
+
     .content .about-me img {
         width: 50%;
         height: 50%;
+    }
+
+    .facebook,
+    .github,
+    .linkedin,
+    .instagram {
+        height: 20px;
+        width: 20px;
     }
 }
