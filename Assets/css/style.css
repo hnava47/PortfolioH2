@@ -98,7 +98,6 @@ nav a {
     border-style: solid;
     border-color: #222;
     border-radius: 3px;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 1em;
     line-height: 1em;
@@ -107,6 +106,12 @@ nav a {
     opacity: 1;
     padding: 6px 5px;
     overflow: hidden;
+    transition: background 0.2s ease-in;
+    cursor: pointer;
+}
+
+.skills li:hover{
+    background-color: #6a6a6a;
 }
 
 form ul {
