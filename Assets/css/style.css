@@ -217,7 +217,7 @@ form awesome-button span:hover {
     }
 
     .content .about-me img {
-        width: 200%;
-        height: 200%;
+        width: 50%;
+        height: 50%;
     }
 }
