@@ -220,6 +220,10 @@ form awesome-button span:hover {
         height: 10%;
     }
 
+    .content .about-me h1 {
+        margin-top: 10%;
+    }
+
     .content .about-me img {
         width: 40%;
         height: 40%;
