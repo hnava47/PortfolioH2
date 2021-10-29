@@ -243,6 +243,11 @@ form awesome-button span:hover {
         width: 75%;
     }
 
+    form img {
+        width: 10%;
+        height: 10%;
+    }
+
     form input {
         font-size: 10px;
     }
