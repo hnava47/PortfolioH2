@@ -225,6 +225,10 @@ form awesome-button span:hover {
         height: 10%;
     }
 
+    .skills li {
+        font-size: 0.5em;
+    }
+
     .facebook,
     .github,
     .linkedin,
