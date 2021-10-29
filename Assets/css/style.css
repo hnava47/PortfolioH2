@@ -252,6 +252,11 @@ form awesome-button span:hover {
         font-size: 10px;
     }
 
+    form awesome-button {
+        padding: 5px;
+        font-size: 0.5em;
+    }
+
     .facebook,
     .github,
     .linkedin,
