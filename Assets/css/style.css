@@ -1,5 +1,5 @@
 body {
-    background-color: #efefef;
+    background-color: var(--primary-color);
     font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
@@ -11,18 +11,18 @@ h1 {
     margin: 1.5% 0;
     font-size: 2.5em;
     font-weight: 700;
-    color: #a9a9a9;
+    color: var(--font-color);
 }
 
 h3 {
     font-size: 1.5em;
     font-weight: 400;
-    color: #a9a9a9;
+    color: var(--font-color);
     margin-bottom: 2%;
 }
 
 h3 a {
-    color: #ff3b3f;
+    color: var(--secondary-offset);
 }
 
 a:link{
@@ -61,7 +61,7 @@ nav li {
 
 nav a {
     color: #f1f1f1;
-    border-bottom: 3px solid #ff3b3f;
+    border-bottom: 3px solid var(--secondary-offset);
 }
 
 .content div {
@@ -71,7 +71,7 @@ nav a {
 
 .content h1 {
     display: inline-block;
-    background: linear-gradient(to bottom, #efefef 50%, #caebf2 50%)
+    background: linear-gradient(to bottom, var(--primary-color) 50%, var(--secondary-color) 50%)
 }
 
 .content .about-me h1 {
@@ -150,7 +150,7 @@ form awesome-button {
 }
 
 form awesome-button span:hover {
-    border-bottom: 3px solid #ff3b3f;
+    border-bottom: 3px solid var(--secondary-offset);
 }
 
 /* Below styling are tied to the follow me options on page */
