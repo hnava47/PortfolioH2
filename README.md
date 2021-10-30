@@ -21,11 +21,11 @@
 
 ## About The Project
 
-This project is meant as a refactoring exercise. Taking existing code from the original source and update to reflect improvements without changing core functionality. This provides a more structured version of the codebase and increases efficiency by consolidating, organizing and including clear and concise comments.
+This project is meant to create and develop a personal portfolio page. This page contains information on my background, skill set, experience, and ways to contact me. The page is meant to be a view for potential clients and give representation on what it's like to work with me. Below is a snapshot of the current page:
 
 ![screen-shot]
 
-After taking a marketing agency's codebase, refactoring was conducted to optimize the design. You can access the updated website at the following link:
+You can access the updated website at the following link:
 * [Deployed Application](https://hnava47.github.io/PortfolioH2/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
